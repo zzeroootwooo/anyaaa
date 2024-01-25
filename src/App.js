@@ -8,6 +8,7 @@ const RandomWordComponent = () => {
     "Аня самая сладкая",
     "Аня самая замечательная",
     "Аня кролик",
+    "Ты яйца",
   ];
   const [currentWord, setCurrentWord] = useState(words[0]);
 
