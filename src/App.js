@@ -24,7 +24,7 @@ const RandomWordComponent = () => {
       {currentWord === "Аня кролик" ? (
         <div>
           <p className="you">Это ты!!!</p>
-          <img src="/img/image.jpg" alt="кролик" />
+          <img src="../public/img/image.jpg" alt="кролик" />
         </div>
       ) : (
         <p></p>
