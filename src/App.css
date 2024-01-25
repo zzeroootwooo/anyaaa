@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 100;
+}
+
+.current {
+  margin-top: 100px;
+}
+
+div > img {
+  width: 200px;
+  height: 150px;
+}
+
+.you {
+  margin-top: 100px;
+}
