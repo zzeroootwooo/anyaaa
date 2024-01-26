@@ -48,7 +48,6 @@ const RandomWordComponent = () => {
           <p className="you" style={{ color: "red" }}>
             ПЕРЕМОГА БУДЕ!!!!
           </p>
-          <img src="/anyaaa/img/three.jpg" alt="perempga" />
         </div>
       ) : (
         <p></p>
