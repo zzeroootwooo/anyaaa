@@ -8,7 +8,8 @@ const RandomWordComponent = () => {
     "Аня самая сладкая",
     "Аня самая замечательная",
     "Аня кролик",
-    "Ты яйца",
+    "Аня бибизяна",
+    "Аня кот",
   ];
   const [currentWord, setCurrentWord] = useState(words[0]);
 
@@ -21,12 +22,22 @@ const RandomWordComponent = () => {
   return (
     <div>
       <p className="current">{currentWord}</p>
-      <button onClick={getRandomWord}>тыцни на кнопочку зайка</button>
+      <button onClick={getRandomWord}>нажми на кнопку проказница</button>
       {currentWord === "Аня кролик" ? (
         <div>
           <p className="you">Это ты!!!</p>
-          <img src="../public/img/image.jpg" alt="кролик" />
-          <div>Яйца</div>
+          <img src="/anyaaa/img/image.jpg" alt="кролик" />
+        </div>
+      ) : (
+        <p></p>
+      )}
+
+      {currentWord === "Аня бибизяна" ? (
+        <div>
+          <p className="you" style={{ color: "red" }}>
+            Это я в шоке от твоей красоты
+          </p>
+          <img src="/anyaaa/img/two.jpg" alt="кролик" />
         </div>
       ) : (
         <p></p>
